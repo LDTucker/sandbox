@@ -1,5 +1,6 @@
-var today = new Date();
-var hourNow = today.getHours();
+// all variable creations begin with var
+var today = new Date(); // create new date object
+var hourNow = today.getHours(); // get the hours of new object - method call
 var greeting;
 
 if (hourNow > 20) {
@@ -13,3 +14,21 @@ if (hourNow > 20) {
 }
 
 document.write("<h4>" + greeting + "</h4>");
+
+// Arrays
+// values in array can be mixed
+// declare as variable
+var house = [   // square brackets
+    'Bungalow', // values are comma delimited
+    'Modern',
+    'Cottage',
+    'Castle'
+]   // does not end with sem-colon
+
+// get the element by id
+var elHouse = document.getElementById('house-types');
+// set the value of the element to the variable
+elHouse.textContent = house;
+
+var elHouseBungalow = document.getElementById('bungalow');
+elHouseBungalow.textContent = house[0];
