@@ -2,22 +2,23 @@
  * ---
  * Overall Value
  * Total Assests = Liabilities + Equity
- */
- // This is a variable
- // all variables are declared with var
- var title = 'Building Wealth'; // semi-colon ends the declaration
+*/
+
+// This is a variable
+// all variables are declared with var
+var title = 'Building Wealth'; // semi-colon ends the declaration
 
 // store the element by id
- var elTitle = document.getElementById('title');
- elTitle.textContent = title; // set the value of the element
+var elTitle = document.getElementById('title');
+elTitle.textContent = title; // set the value of the element
 
- // the options for which forluma is chosen
- // array constructor
- var formula = new Array(
-     'assests',
-     'one-tenth',
-     'debt-payment',
-     'growth');
+// the options for which forluma is chosen
+// array constructor
+var formula = new Array(
+    'assests',
+    'one-tenth',
+    'debt-payment',
+    'growth');
 
 var elFormula = document.getElementById('asset-label');
 elFormula.textContent = formula[0]; // get array by key (index)

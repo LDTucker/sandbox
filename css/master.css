@@ -1,3 +1,18 @@
-h4 {
-    color: blue;
+.page-header {
+    background-color: #d9be73;
+    border: 5px black solid;
+    padding: 10px;
+    display: block;
+    width: auto;
+    text-align: center;
 }
+
+.project-wrapper {
+    display: block;
+    float: left;
+    width: 46%;
+    margin: 5px;
+    border: 2px black solid;
+    padding: 10px;
+}
+
